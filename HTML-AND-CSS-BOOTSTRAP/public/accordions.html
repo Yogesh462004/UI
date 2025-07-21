@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid mt-4">
+      <h2 class="text-center">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqs">
+        <div class="accordion-item" >
+          <div
+            class="accordion-header"
+          >
+            <button class="accordion-button "data-bs-toggle="collapse"
+            data-bs-target="#q1">What is Netflix</button>
+          </div>
+          <div class="accordion-collapse collapse fade " id="q1" data-bs-parent="#faqs">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              fuga nulla at voluptatibus modi consectetur, repellat, corrupti
+              quod facilis dolores eum assumenda ratione esse nemo asperiores
+              sapiente, ullam cumque maxime!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-1" >
+          <div class="accordion-header">
+            <button
+              class="accordion-button " 
+              data-bs-toggle="collapse"
+              data-bs-target="#q2"
+            >
+              How Much Cost
+            </button>
+          </div>
+          <div class="accordion-collapse collapse" id="q2" data-bs-parent="#faqs">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+              fuga nulla at voluptatibus modi consectetur, repellat, corrupti
+              quod facilis dolores eum assumenda ratione esse nemo asperiores
+              sapiente, ullam cumque maxime!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

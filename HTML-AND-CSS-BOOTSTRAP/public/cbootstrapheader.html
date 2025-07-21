@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            border: 1px solid red;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        nav span{
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .icons span{
+            margin-right: 10px;
+        }
+        .bi-bootstrap-fill{
+            font-size: 30px;
+        }
+        .div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+        .search-box{
+            border: 1px solid white;
+            padding: 10px;
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ctrl{
+            background-color: black;
+            padding: 5px;
+            color: white;
+            border-radius: 5px;
+        }
+        .bi-search{
+            /* border: 1px solid red; */
+            padding: 5px;
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <nav>
+                <span class="bi bi-bootstrap-fill"></span><span>DOCS</span><span>EXAMPLES</span><span>ICONS</span><span>THEMES</span>
+            </nav>
+        </div>
+        <div class="div2">
+            <div class="search-box">
+                <span class="bi bi-search">SEARcH</span>
+            <span class="ctrl">CTRL+K</span>
+            </div>
+        </div>
+        <div class="icons">
+            <span class="bi bi-github"></span><span class="bi bi-twitter"></span>
+            <span class="bi bi-alexa"></span>
+            <span>v5.3<span class="bi bi-chevron-down"></span></span>
+            <span class="bi bi-sun-fill"></span>
+            <span class="bi bi-chevron-down"></span>
+        </div>
+    </header>
+</body>
+</html>

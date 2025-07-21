@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial;
+}
+nav span {
+    margin-right: 5px;
+    font-size: 14px;
+}
+.icons span {
+    margin-right: 5px;
+}
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+article {
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.bi-lightning-fill {
+    color: goldenrod;
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 600px;
+    margin-top: 5px;
+    
+}
+ .women {
+    background-image: url("./images/women.jpg");
+    background-size: 100% 100%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+        text-shadow: 2px 2px 2px black;
+
+}
+.arr{
+    background-color: white;
+    color: black;
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.men {
+    background-image: url("./images/men.jpg");
+        background-size: 100% 100%;
+        color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.kid {
+    background-image: url("./images/kid.jpg");
+        background-size: 100% 100%;
+        color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.row1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.row2{
+    text-align: center;
+    margin-top: 10px;
+}
+.row2 span{
+    margin-right: 15px;
+}
+.mail{
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    background-color: darkgrey;
+    color: black;
+}
+.sub{
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color:red;
+    color:white
+}
+.row3{
+    display: grid;
+    grid-template-columns: 1.4fr 1.4fr 1.4fr 1.4fr 1.4fr;
+    margin-top: 10px;
+    padding: 20px;
+}
+.logo{
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+.logo~span{
+    display: block;
+    margin-bottom: 10px;
+}
+aside span{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.logo1{
+    margin-bottom: 20px;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="brand-name">
+            Shopper
+        </div>
+        <div>
+           <nav>
+            <span>HOME</span>
+            <span>CATALOG</span>
+            <span>SHOP</span>
+            <span>BLOGS</span>
+           </nav>
+        </div>
+        <div class="icons">
+         <span class="bi bi-search"></span>
+         <span class="bi bi-heart"></span>
+         <span class="bi bi-cart"></span>
+         <span class="bi bi-person-lines-fill"></span>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>HAPPY HOLIDAYS DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-fill"></span>
+
+    </article>
+    <section>
+        <main>
+            
+
+<div class="women">
+    <div class="title">
+        <span>WOMEN</span>
+    </div>
+    <div class="arr" >
+        <span > Shop Women <span class="bi bi-arrow-bar-left"></span></span>
+    </div>
+</div>
+<div class="kid">
+     <div class="title">
+        <span>KID</span>
+    </div>
+    <div class="arr" >
+        <span > Shop KID <span class="bi bi-arrow-bar-left"></span></span>
+    </div>
+</div>
+<div class="men">
+     <div class="title">
+        <span>MEN</span>
+    </div>
+    <div class="arr" >
+        <span > Shop men <span class="bi bi-arrow-bar-left"></span></span>
+    </div>
+</div>
+
+            
+        </main>
+    </section>
+    <footer>
+        <div class="row1">
+          Want Style Ideas and Treats?
+        </div>
+        <div class="row2">
+            <span class="mail">Enter Email</span>
+            <span class="sub">Subscribe</span>
+        </div>
+        <div class="row3">
+          <div class="col1">
+              <span class="logo1">Shopper.</span>
+              <aside>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter-x"></span>
+                <span class="bi bi-linkedin"></span>
+              </aside>
+          </div>
+          <div class="col2">
+             <span class="logo">Shopper</span><span>Contact Us</span><span>FAQs</span><span>Size Guide</span><span>Shipping and Returns</span>
+          </div>
+          <div class="col3">
+             <span class="logo">Shopper</span><span>Contact Us</span><span>FAQs</span><span>Size Guide</span><span>Shipping and Returns</span>
+
+          </div>
+          <div class="col4">
+             <span class="logo">Shopper</span><span>Contact Us</span><span>FAQs</span><span>Size Guide</span><span>Shipping and Returns</span>
+
+          </div>
+          <div class="col5">
+             <span class="logo">Shopper</span><span>Contact Us</span><span>FAQs</span><span>Size Guide</span><span>Shipping and Returns</span>
+
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
